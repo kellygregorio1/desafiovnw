@@ -61,40 +61,63 @@ section{
 	display: flex;
 	flex-wrap: wrap;
 }
+.se4 p{
+	margin-bottom: 0px;
+}
 .se4 h2{
-	font-size: 16px;
+	font-size: 16px;	
 }
 .se4 div img{
 	width: 60%; 
 }
-.se4 div ul li{
-	font-size: 13px;
+.se4 div h3{
+	font-size: 17px;
 }
-.se4 h3{
+.se4 div ul{
+	margin: 1%;
+	padding-left: 0;
+}
+.se4 div ul li{
+	font-size: 10px;
+	display: flex
+}
+
+.se5 {
+	width: 53.5%;
+}
+.se5 p{
+	font-size:16px; 
+}
+.se5 h2{
 	font-size: 15px;
 }
-.se5 {
-	width: 54%;
+.se6 {
+	width: 24%;
 }
-.se6{
+.se6 h3{
+	font-size: 15px;
+}
+.se6 h2{
+	font-size: 13px;
+}
+.se6 ul{
+	font-size: 15px;
+}
+.se6 img{
+  font-size: 20px;
+}
+.se7 h2{
+	font-size: 24px;
+}
+.se7 ul li{
+	font-size:																							se6{
 	width: 26%;
 }
 .se6 h3{
-	font-size: 12px;
+	font-size: 16px;
 }
 .se7{
-	width: 10%;
-}
-.se7 ul li{
-	/*width: 14.5%;*/
-}
-.se7 ul{
-	padding-left:0;
-	margin-bottom: 0;
-	list-style: none;
-}
-.sec7 ul li:before{
-	content: ".";
+	padding: 40px;
 }
 
 

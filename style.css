@@ -18,13 +18,17 @@ main{
 	flex-wrap: wrap;
 	width: 70%;
 }
+h1, h2, h3 {
+	margin-top: 0;
+}
 section{
 	background:#fff;
-	margin: 5px;
-	padding: 10px;
+	margin: 1%;
+	padding: 12px;
+	box-shadow: 5px 5px 20px #888;
 }
 .se1{
-	width: 67%;
+	width: 64.5%;
 }
 .se1 h1{
 	font-size:20px;
@@ -45,80 +49,92 @@ section{
 	font-size: 10px;
 }
 .se3{
-	width: 30%;
+	width: 26%;
+	font-family: "Times New Roman - italico";
+	font-size: 20px;
 }
 .se3 img {
-	width:49%; 
+	width:48%; 
 }
 .se3 p:last-child{
 	text-align: right;
-	color: red;
+	font-family: arial;
+	font-size: 17px;
 }
 .se4{
-	width:63%;
-	margin:5px;
-	padding:10px;
+	width:64.5%;
 	display: flex;
 	flex-wrap: wrap;
 }
-.se4 p{
-	margin-bottom: 0px;
-}
 .se4 h2{
-	font-size: 16px;	
+	font-size: 17px;	
+}
+.se4 div {
+	width: 48%;
+	margin: 1%;
 }
 .se4 div img{
-	width: 60%; 
+	width: 70%; 
+	margin-left: 5%;
 }
-.se4 div h3{
+.se4 div p{
+	margin-bottom: 2px;
 	font-size: 17px;
 }
 .se4 div ul{
-	margin: 1%;
+	margin: 0;
 	padding-left: 0;
 }
 .se4 div ul li{
-	font-size: 10px;
-	display: flex
+	font-size: 12px;
+	list-style: none;
 }
-
+.se4 div ul li:before {
+	content: "- ";
+}
 .se5 {
-	width: 53.5%;
+	width: 50%;
+}
+.se5 h2{
+	font-size: 17px;
 }
 .se5 p{
 	font-size:16px; 
 }
-.se5 h2{
-	font-size: 15px;
-}
 .se6 {
-	width: 24%;
+	width: 21.7%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 .se6 h3{
-	font-size: 15px;
-}
-.se6 h2{
-	font-size: 13px;
-}
-.se6 ul{
-	font-size: 15px;
+	font-size: 17px;
+	width: 100%;
+	margin-bottom: 2px;
 }
 .se6 img{
-  font-size: 20px;
-}
-.se7 h2{
-	font-size: 24px;
-}
-.se7 ul li{
-	font-size:																							se6{
-	width: 26%;
-}
-.se6 h3{
-	font-size: 16px;
+	width: 85%;
 }
 .se7{
-	padding: 40px;
+	width: 14%;
+}
+.se7 h2{
+	font-size: 17px;
+}
+.se7 ul {
+	padding-left: 0;
+	list-style: none;
+}
+.se7 ul li{
+	margin-bottom: 7px;
+}
+.se7 ul li:before{
+	content: "• ";
 }
 
 
 
+@font-face {
+	font-family: "Times New Roman - italico";
+	src:url(fonts/timesi.ttf);
+}
